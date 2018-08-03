@@ -7,7 +7,7 @@ class TodosContainer extends Component {
   renderTodos = () => {
     return this.props.todos.map(todo => <Todo delete={this.props.delete} key={todo.id} todo={todo} />)
   }
-  
+
   render() {
     return(
       <div>
